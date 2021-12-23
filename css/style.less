@@ -365,7 +365,6 @@ body {
            padding: 50px 30px;
            color: white;
            background-color: gray;
-           height: 500px;
            .footer {
                h2 {
                    font-weight: lighter;
@@ -379,6 +378,25 @@ body {
 
                a {
                    color: white;
+               }
+           }
+
+           .blog {
+               h2 {
+                   font-weight: lighter;
+                   margin-bottom: 15px;
+               }
+
+               .card_list {
+                   display: grid;
+                   grid-template-columns: 1fr 2fr;
+                   row-gap: 5px;
+                   img {
+                       width: 50%;
+                   }
+
+                   
+                
                }
            }
 
@@ -398,8 +416,24 @@ body {
                        padding: 4px;
                    }
                }
+
+               h2 {
+                   font-weight: lighter;
+                   margin-bottom: 15px;
+               }
            }
 
+       }
+
+       footer {
+           padding: 30px;
+           color: white;
+           background-color: black;
+           text-align: center;
+
+           a {
+               color: white;
+           }
        }
        
     }

@@ -307,7 +307,6 @@ body {
   padding: 50px 30px;
   color: white;
   background-color: gray;
-  height: 500px;
 }
 .main_container .right_bar .last .footer h2 {
   font-weight: lighter;
@@ -318,6 +317,18 @@ body {
 }
 .main_container .right_bar .last .footer a {
   color: white;
+}
+.main_container .right_bar .last .blog h2 {
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+.main_container .right_bar .last .blog .card_list {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 5px;
+}
+.main_container .right_bar .last .blog .card_list img {
+  width: 50%;
 }
 .main_container .right_bar .last .tags p {
   line-height: 2;
@@ -332,4 +343,17 @@ body {
   color: white;
   background-color: black;
   padding: 4px;
+}
+.main_container .right_bar .last .tags h2 {
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+.main_container .right_bar footer {
+  padding: 30px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.main_container .right_bar footer a {
+  color: white;
 }
