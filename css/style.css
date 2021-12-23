@@ -8,6 +8,30 @@ body {
   background-color: #f1f1f1;
   font-family: sans-serif;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+header img {
+  border-radius: 50%;
+  width: 70px;
+  padding: 10px;
+  margin-top: 15px;
+}
+header img:hover {
+  opacity: 0.8;
+}
+header > p {
+  font-size: 45px;
+  margin: 15px 0;
+}
+header > p:hover {
+  background-color: #bebebe;
+}
+header > p i {
+  padding: 10px;
+}
 .main_container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -371,6 +395,11 @@ body {
     grid-template-columns: 1fr;
   }
   .main_container .left_bar {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  header {
     display: none;
   }
 }
