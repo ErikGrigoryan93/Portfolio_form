@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1600px;
+  margin: auto;
+}
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+}
+.main_container .left_bar {
+  background-color: green;
+}
+.main_container .right_bar {
+  background-color: greenyellow;
+}
