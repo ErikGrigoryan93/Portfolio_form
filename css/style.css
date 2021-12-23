@@ -54,9 +54,10 @@ body {
 }
 .main_container .right_bar {
   background-color: yellow;
+  overflow-y: scroll;
 }
 .main_container .right_bar .first_div {
-  padding: 10px;
+  padding: 15px;
 }
 .main_container .right_bar .first_div h1 {
   font-family: sans-serif;
@@ -87,4 +88,24 @@ body {
   padding: 2px;
   background-color: #c8c8c8;
   margin: 20px 0;
+}
+.main_container .right_bar .second_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 15px;
+}
+.main_container .right_bar .second_div img {
+  width: 100%;
+}
+.main_container .right_bar .second_div div {
+  background-color: white;
+}
+.main_container .right_bar .second_div h3 {
+  margin: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.main_container .right_bar .second_div p {
+  margin: 25px 15px;
 }

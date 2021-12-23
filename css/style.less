@@ -64,9 +64,10 @@ body {
 
     .right_bar {
        background-color: yellow;
+       overflow-y: scroll;
 
        .first_div {
-           padding: 10px;
+           padding: 15px;
 
            h1 {
                font-family: sans-serif;
@@ -104,6 +105,32 @@ body {
            }
 
            
+       }
+
+       .second_div {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           gap: 15px;
+           padding: 15px;
+
+           img {
+               width: 100%;
+           }
+
+           div {
+               background-color: white;
+           }
+
+           h3 {
+               margin:15px;
+               font-size: 15px;
+               font-weight: 600;
+           }
+
+           p {
+               margin: 25px 15px;
+           }
+
        }
     }
 }
