@@ -130,3 +130,21 @@ body {
   color: black;
   background-color: #c8c8c8;
 }
+.main_container .right_bar .third_div {
+  padding: 15px;
+}
+.main_container .right_bar .third_div > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.main_container .right_bar .third_div > div img {
+  width: 100%;
+}
+.main_container .right_bar .third_div h2 {
+  margin-top: 30px;
+  font-weight: lighter;
+}
+.main_container .right_bar .third_div p {
+  margin: 15px 0;
+}
