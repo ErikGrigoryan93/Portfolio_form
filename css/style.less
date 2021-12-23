@@ -32,7 +32,7 @@ body {
         img {
             width: 45%;
             border-radius: 5px;
-            margin-left: 20px;
+            margin: 20px;
         }
         
         a {
@@ -356,6 +356,50 @@ body {
                    }
                }
            }
+       }
+
+       .last {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           gap: 10px;
+           padding: 50px 30px;
+           color: white;
+           background-color: gray;
+           height: 500px;
+           .footer {
+               h2 {
+                   font-weight: lighter;
+               }
+
+
+               p {
+                   line-height: 1.5;
+                   margin-top: 15px;
+               }
+
+               a {
+                   color: white;
+               }
+           }
+
+           .tags {
+               p {
+                   line-height: 2;
+                   a {
+                       color: black;
+                       background-color: rgb(212, 212, 212);
+                       text-decoration: none;
+                       padding: 2px 4px;
+                   }
+
+                   .black {
+                       color: white;
+                       background-color: black;
+                       padding: 4px;
+                   }
+               }
+           }
+
        }
        
     }

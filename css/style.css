@@ -29,7 +29,7 @@ body {
 .main_container .left_bar img {
   width: 45%;
   border-radius: 5px;
-  margin-left: 20px;
+  margin: 20px;
 }
 .main_container .left_bar a {
   display: block;
@@ -299,4 +299,37 @@ body {
 .main_container .right_bar .contact .fill_in button:hover {
   color: black;
   background-color: #d4d4d4;
+}
+.main_container .right_bar .last {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 50px 30px;
+  color: white;
+  background-color: gray;
+  height: 500px;
+}
+.main_container .right_bar .last .footer h2 {
+  font-weight: lighter;
+}
+.main_container .right_bar .last .footer p {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+.main_container .right_bar .last .footer a {
+  color: white;
+}
+.main_container .right_bar .last .tags p {
+  line-height: 2;
+}
+.main_container .right_bar .last .tags p a {
+  color: black;
+  background-color: #d4d4d4;
+  text-decoration: none;
+  padding: 2px 4px;
+}
+.main_container .right_bar .last .tags p .black {
+  color: white;
+  background-color: black;
+  padding: 4px;
 }
