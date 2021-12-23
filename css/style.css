@@ -366,3 +366,9 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 600px) {
+  .charge {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
