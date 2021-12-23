@@ -404,7 +404,28 @@ header > p i {
   }
 }
 @media screen and (max-width: 600px) {
-  .charge {
+  .main_container .right_bar .second_div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main_container .right_bar .third_div > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .main_container .right_bar .charge {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main_container .right_bar .contact .icons {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main_container .right_bar .last {
     display: grid;
     grid-template-columns: 1fr;
   }
