@@ -303,7 +303,7 @@ body {
 .main_container .right_bar .last {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
   padding: 50px 30px;
   color: white;
   background-color: gray;
@@ -323,12 +323,20 @@ body {
   margin-bottom: 15px;
 }
 .main_container .right_bar .last .blog .card_list {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  row-gap: 5px;
+  display: block;
 }
-.main_container .right_bar .last .blog .card_list img {
-  width: 50%;
+.main_container .right_bar .last .blog .card_list .box {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+  padding: 10px;
+}
+.main_container .right_bar .last .blog .card_list .box:hover {
+  background-color: #c7c7c7;
+}
+.main_container .right_bar .last .blog .card_list .box img {
+  width: 100%;
+  padding-left: 10px;
 }
 .main_container .right_bar .last .tags p {
   line-height: 2;

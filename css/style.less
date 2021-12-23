@@ -361,7 +361,7 @@ body {
        .last {
            display: grid;
            grid-template-columns: 1fr 1fr 1fr;
-           gap: 10px;
+           gap: 15px;
            padding: 50px 30px;
            color: white;
            background-color: gray;
@@ -386,14 +386,26 @@ body {
                    font-weight: lighter;
                    margin-bottom: 15px;
                }
+               
 
                .card_list {
-                   display: grid;
-                   grid-template-columns: 1fr 2fr;
-                   row-gap: 5px;
-                   img {
-                       width: 50%;
+                   display: block;
+
+
+                   .box {
+                       display: grid;
+                       grid-template-columns: 1fr 4fr;
+                       gap: 20px;
+                       padding: 10px;
+                       &:hover {
+                           background-color: rgb(199, 199, 199);
+                       }
+                       img {
+                           width: 100%;
+                           padding-left: 10px;
+                       }
                    }
+                   
 
                    
                 
