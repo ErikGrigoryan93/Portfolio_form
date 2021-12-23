@@ -56,6 +56,10 @@ body {
   background-color: yellow;
   overflow-y: scroll;
 }
+.main_container .right_bar > h2 {
+  padding: 15px;
+  font-weight: lighter;
+}
 .main_container .right_bar .first_div {
   padding: 15px;
 }
@@ -192,4 +196,52 @@ body {
   color: white;
   width: 80%;
   background-color: gray;
+}
+.main_container .right_bar .charge {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 15px;
+}
+.main_container .right_bar .charge > div {
+  opacity: 0.9;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: white;
+}
+.main_container .right_bar .charge > div:hover {
+  opacity: 1;
+}
+.main_container .right_bar .charge > div h2 {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  font-weight: lighter;
+}
+.main_container .right_bar .charge > div .pro {
+  background-color: #009688;
+}
+.main_container .right_bar .charge > div h3 {
+  line-height: 3;
+  font-weight: 400;
+}
+.main_container .right_bar .charge > div h3 b {
+  font-size: 30px;
+}
+.main_container .right_bar .charge > div h3 p {
+  color: gray;
+  line-height: 1;
+}
+.main_container .right_bar .charge > div > p {
+  padding: 30px;
+  margin-top: 15px;
+  background-color: #f1f1f1;
+}
+.main_container .right_bar .charge > div > p button {
+  color: white;
+  background-color: #009688;
+  padding: 15px 20px;
+}
+.main_container .right_bar .charge > div > p button:hover {
+  background-color: black;
 }

@@ -66,6 +66,11 @@ body {
        background-color: yellow;
        overflow-y: scroll;
 
+       > h2 {
+           padding: 15px;
+           font-weight: lighter;
+       }
+
        .first_div {
            padding: 15px;
 
@@ -231,6 +236,63 @@ body {
                 }
 
                 
+           }
+       }
+
+       .charge {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           gap: 10px;
+           padding: 15px;
+
+           > div {
+               opacity: 0.9;
+               text-align: center;
+               border: 1px solid gray;
+               background-color: white;
+               &:hover {
+                   opacity: 1;
+               }
+
+               h2 {
+                   color: white;
+                   background-color: black;
+                   padding: 30px;
+                   font-weight: lighter;
+               }
+
+               .pro {
+                   background-color: #009688;
+               }
+
+               h3 {
+                   line-height: 3;
+                   font-weight: 400;
+
+                   b {
+                       font-size: 30px;
+                   }
+
+                   p {
+                       color: gray;
+                       line-height: 1;
+                   }
+               }
+
+               > p {
+                   padding: 30px;
+                   margin-top: 15px;
+                   background-color: #f1f1f1;
+
+                   button {
+                       color: white;
+                       background-color: #009688;
+                       padding: 15px 20px;
+                       &:hover {
+                           background-color: black;
+                       }
+                   }
+               }
            }
        }
        
