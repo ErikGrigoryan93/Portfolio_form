@@ -43,6 +43,12 @@ body {
 .main_container .left_bar p {
   margin-left: 20px;
 }
+.main_container .left_bar p i {
+  color: black;
+}
+.main_container .left_bar p i:hover {
+  color: gray;
+}
 .main_container .left_bar a > i {
   margin-right: 10px;
 }
@@ -53,7 +59,7 @@ body {
   color: black;
 }
 .main_container .right_bar {
-  background-color: yellow;
+  background-color: #f1f1f1;
   overflow-y: scroll;
 }
 .main_container .right_bar > h2 {
@@ -168,6 +174,7 @@ body {
   margin: 25px 0;
   background-color: gray;
   padding: 15px 20px;
+  border: none;
 }
 .main_container .right_bar .skills button:hover {
   color: black;
@@ -204,7 +211,7 @@ body {
   padding: 15px;
 }
 .main_container .right_bar .charge > div {
-  opacity: 0.9;
+  opacity: 0.8;
   text-align: center;
   border: 1px solid gray;
   background-color: white;
@@ -241,7 +248,55 @@ body {
   color: white;
   background-color: #009688;
   padding: 15px 20px;
+  border: none;
 }
 .main_container .right_bar .charge > div > p button:hover {
   background-color: black;
+}
+.main_container .right_bar .contact {
+  padding: 15px;
+  background-color: #b1b1b1;
+}
+.main_container .right_bar .contact .icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+}
+.main_container .right_bar .contact .icons > div {
+  color: white;
+  background-color: gray;
+}
+.main_container .right_bar .contact .icons .location {
+  background-color: #009688;
+}
+.main_container .right_bar .contact .icons p {
+  text-align: center;
+  padding: 10px;
+}
+.main_container .right_bar .contact .icons p i {
+  font-size: 40px;
+}
+.main_container .right_bar .contact .fill_in {
+  padding: 20px 10px;
+}
+.main_container .right_bar .contact .fill_in hr {
+  margin: 20px 0;
+}
+.main_container .right_bar .contact .fill_in input {
+  width: 100%;
+  background-color: white;
+  border: none;
+  padding: 10px 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.main_container .right_bar .contact .fill_in button {
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  border: none;
+}
+.main_container .right_bar .contact .fill_in button:hover {
+  color: black;
+  background-color: #d4d4d4;
 }
