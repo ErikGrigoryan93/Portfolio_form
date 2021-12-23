@@ -109,3 +109,24 @@ body {
 .main_container .right_bar .second_div p {
   margin: 25px 15px;
 }
+.main_container .right_bar .numbers {
+  text-align: center;
+  margin: 40px 0;
+}
+.main_container .right_bar .numbers a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+}
+.main_container .right_bar .numbers a:hover {
+  color: white;
+  background-color: black ;
+}
+.main_container .right_bar .numbers .black {
+  color: white;
+  background-color: black;
+}
+.main_container .right_bar .numbers .black:hover {
+  color: black;
+  background-color: #c8c8c8;
+}
