@@ -357,3 +357,12 @@ body {
 .main_container .right_bar footer a {
   color: white;
 }
+@media screen and (max-width: 1000px) {
+  .main_container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main_container .left_bar {
+    display: none;
+  }
+}
