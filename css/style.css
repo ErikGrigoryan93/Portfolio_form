@@ -6,6 +6,7 @@ body {
   max-width: 1600px;
   margin: auto;
   background-color: #f1f1f1;
+  font-family: sans-serif;
 }
 .main_container {
   display: grid;
@@ -14,14 +15,42 @@ body {
 }
 .main_container .left_bar {
   background-color: white;
-  padding: 20px;
+  line-height: 2.5;
+}
+.main_container .left_bar h2 {
+  font-weight: lighter;
+  margin-left: 20px;
+}
+.main_container .left_bar h3 {
+  font-weight: lighter;
+  margin-left: 20px;
+  color: gray;
 }
 .main_container .left_bar img {
   width: 45%;
   border-radius: 5px;
+  margin-left: 20px;
 }
 .main_container .left_bar a {
   display: block;
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+}
+.main_container .left_bar a:hover {
+  background-color: #e0e0e0;
+}
+.main_container .left_bar p {
+  margin-left: 20px;
+}
+.main_container .left_bar a > i {
+  margin-right: 10px;
+}
+.main_container .left_bar .piruz {
+  color: #009688;
+}
+.main_container .left_bar .piruz:hover {
+  color: black;
 }
 .main_container .right_bar {
   background-color: yellow;
