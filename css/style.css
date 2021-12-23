@@ -148,3 +148,48 @@ body {
 .main_container .right_bar .third_div p {
   margin: 15px 0;
 }
+.main_container .right_bar .skills {
+  padding: 15px;
+}
+.main_container .right_bar .skills h2 {
+  font-weight: lighter;
+  margin-bottom: 16px;
+}
+.main_container .right_bar .skills h3 {
+  margin: 10px 0;
+  font-weight: lighter;
+}
+.main_container .right_bar .skills button {
+  color: white;
+  margin: 25px 0;
+  background-color: gray;
+  padding: 15px 20px;
+}
+.main_container .right_bar .skills button:hover {
+  color: black;
+  background-color: #c8c8c8;
+}
+.main_container .right_bar .skills div {
+  background-color: #c8c8c8;
+}
+.main_container .right_bar .skills div .first {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  width: 95%;
+  background-color: gray;
+}
+.main_container .right_bar .skills div .second {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  width: 85%;
+  background-color: gray;
+}
+.main_container .right_bar .skills div .third {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  width: 80%;
+  background-color: gray;
+}
