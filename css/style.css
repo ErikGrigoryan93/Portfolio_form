@@ -5,6 +5,7 @@
 body {
   max-width: 1600px;
   margin: auto;
+  background-color: #f1f1f1;
 }
 .main_container {
   display: grid;
@@ -12,8 +13,16 @@ body {
   height: 100vh;
 }
 .main_container .left_bar {
-  background-color: green;
+  background-color: white;
+  padding: 20px;
+}
+.main_container .left_bar img {
+  width: 45%;
+  border-radius: 5px;
+}
+.main_container .left_bar a {
+  display: block;
 }
 .main_container .right_bar {
-  background-color: greenyellow;
+  background-color: yellow;
 }
